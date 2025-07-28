@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-size{
+    width: 243px;
+    height: 141px;
+}
+
+.image-size:hover{
+    transform: matrix(1.0.0.1.0.0);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-packeg{
+    background-color: white;
+    padding: 48px 28px 16px 24px;
+    box-shadow: 0px 4px 0px 4px rgba(0, 0,0,0.2);
+    border-radius: 20px;
+}
+
+.btn-packeg{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.btn-packeg button{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #3367D1;
+}
+
+.packeg-ul{
+    list-style-type: none;
+}
+
+.packeg-ul ::before{
+    content:"☑️";
+    border-radius: 50%;
+}
